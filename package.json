@@ -1,6 +1,6 @@
 {
-  "name": "sandip-tester",
-  "version": "1.0.0",
+  "name": "sandip2224",
+  "version": "2.0.0",
   "description": "Personalized card for @sandip2224",
   "main": "card.js",
   "bin": "./card.js",

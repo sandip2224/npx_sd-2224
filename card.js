@@ -43,7 +43,7 @@ const data = {
     github: chalk.hex('#787878')("https://github.com/sandip2224"),
     dev: chalk.hex('#330093')("https://dev.to/sandip2224"),
     website: chalk.hex('#00AB9E')("https://sandipan-2224.web.app/"),
-    npx: chalk.hex('#A1AB00')("npx sandip2224"),
+    npx: chalk.hex('#A1AB00')("npx sandipan2224"),
 
     labelFact: chalk.hex('#FF6262').bold("          Fun Fact:"),
     labelTwitter: chalk.hex('#629DFF').bold("        Twitter:"),
