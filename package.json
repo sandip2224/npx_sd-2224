@@ -1,0 +1,22 @@
+{
+  "name": "npx-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon card.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0",
+    "inquirer": "^8.1.0",
+    "open": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
