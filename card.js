@@ -38,19 +38,21 @@ const questions = [
 const data = {
     name: chalk.bold.green("                     Sandipan Das"),
     handle: chalk.white("@sandipan2224"),
-    fact: chalk.hex('#B10000')('I love Open-Source!'),
-    twitter: chalk.hex('#00A1D9')("https://twitter.com/sandipan_2224"),
-    github: chalk.hex('#787878')("https://github.com/sandip2224"),
-    dev: chalk.hex('#330093')("https://dev.to/sandip2224"),
+    fact: chalk.hex('#ff1a1a')("Passionate software developer at heart❤"),
+    twitter: chalk.hex('#00A1D9')("https://twitter.com/sandipan_2224/"),
+    github: chalk.hex('#787878')("https://github.com/sandip2224/"),
+    medium: chalk.hex('#00AB9E')("https://sandip2224.medium.com/"),
+    dev: chalk.hex('#330093')("https://dev.to/sandip2224/"),
     website: chalk.hex('#00AB9E')("https://sandipan-2224.web.app/"),
-    npx: chalk.hex('#A1AB00')("npx sandipan2224"),
+    npx: chalk.hex('#A1AB00')("npx sandip2224"),
 
-    labelFact: chalk.hex('#FF6262').bold("          Fun Fact:"),
-    labelTwitter: chalk.hex('#629DFF').bold("        Twitter:"),
-    labelGitHub: chalk.hex('#9E9E9E').bold("         GitHub:"),
-    labelDev: chalk.hex('#A959FF').bold("            Dev:"),
-    labelWebsite: chalk.hex('#59FFC8').bold("        Website:"),
-    labelCard: chalk.hex('#FFF976').bold("                  Card:")
+    labelFact: chalk.hex('#FF6262').bold("     "),
+    labelTwitter: chalk.hex('#629DFF').bold("       Twitter:"),
+    labelGitHub: chalk.hex('#9E9E9E').bold("        GitHub:"),
+    labelMedium: chalk.hex('#59FFC8').bold("        Medium:"),
+    labelDev: chalk.hex('#A959FF').bold("           Dev:"),
+    labelWebsite: chalk.hex('#59FFC8').bold("       Website:"),
+    labelCard: chalk.hex('#FFF976').bold("                Card:")
 };
 
 const me = boxen(
@@ -61,20 +63,21 @@ const me = boxen(
         ``,
         `${data.labelTwitter}  ${data.twitter}`,
         `${data.labelGitHub}  ${data.github}`,
+        `${data.labelMedium}  ${data.medium}`,
         `${data.labelDev}  ${data.dev}`,
         `${data.labelWebsite}  ${data.website}`,
         ``,
         `${data.labelCard}  ${data.npx}`,
         ``,
         `${chalk.bold(
-            "Hi there! I'm Sandipan, an aspiring software " 
+            "Hi there! I'm Sandipan, an aspiring software developer" 
         )}`,
-        `${chalk.bold("developer and web designer from India. I also have a ")}`,
+        `${chalk.bold("and web designer from India. I also have a knack for")}`,
         `${chalk.bold(
-            "knack for creating aesthetically pleasing, responsive "
+            "for creating aesthetically pleasing, responsive web apps."
         )}`,
         `${chalk.bold(
-            "web apps. Toss me an email if you want to talk!"
+            "Toss me an email and I'll get back to you soon."
         )}`
     ].join("\n"),
     {
