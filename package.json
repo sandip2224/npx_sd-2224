@@ -1,11 +1,13 @@
 {
-  "name": "sandip2224",
+  "name": "sandip-tester",
   "version": "1.0.0",
   "description": "Personalized card for @sandip2224",
   "main": "card.js",
+  "bin": "./card.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon card.js"
+    "test": "node card.js",
+    "pub": "npm version patch & npm publish",
+    "devStart": "node card.js"
   },
   "repository": {
     "type": "git",
