@@ -22,7 +22,7 @@ const questions = [
                 name: `Toss an ${chalk.bold("email")}?`,
                 value: () => {
                     open("mailto:sandipan2224@gmail.com");
-                    console.log("\nLooking forward to hearing your message and replying to you!\n");
+                    console.log("\nLooking forward to your message. Talk to you soon ✌\n");
                 }
             },
             {
