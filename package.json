@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sandip2224/npx-sandipan2224.git"
+    "url": "git+https://github.com/sandip2224/npx_sd-2224.git"
   },
   "author": "Sandipan Das",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sandip2224/npx-sandipan2224/issues"
+    "url": "https://github.com/sandip2224/npx_sd-2224/issues"
   },
-  "homepage": "https://github.com/sandip2224/npx-sandipan2224#readme",
+  "homepage": "https://github.com/sandip2224/npx_sd-2224#readme",
   "dependencies": {
     "boxen": "^5.0.1",
     "chalk": "^4.1.1",
