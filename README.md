@@ -23,8 +23,8 @@
 **1. Fork and clone this repository using**
 
 ```
-  git clone https://github.com/sandip2224/npx-sandip2224.git
-  cd npx-sandip2224/
+  git clone https://github.com/sandip2224/npx_sd-2224.git
+  cd npx_sd-2224/
 ```  
 
 **2. Install required dependencies using**
@@ -44,8 +44,7 @@
 **5. Stage and commit the changes using**
 
 ```
-   git add .
-   git commit -m '<COMMIT-MESSAGE>'
+   git commit -a -m '<COMMIT-MESSAGE>'
 ```
 
 **6. Make sure that you are logged on into npm. If you aren't, then do**
